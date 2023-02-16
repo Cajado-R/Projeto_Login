@@ -125,19 +125,22 @@ label {
     color: white;
     background-color: black;
     font-size: 2em;
-    width: 40px;
-    padding: 1px;
+    width: 30px;
+    padding: 4px;
 }
 
-.campos > input{
-    margin: 7px, 7px;
-    padding: 7px;
+div.campos > input{
+
     background-color: #7e91f9;
     font-size: 1em;
-    width: calc(100% - 64px);
+    width: calc(100% - 60px);
+    margin-left: 20px;
+    width: 86%;
     height: 100%;
+    transform: translate(20px, -40px);
     border: 0px;
     border-radius: 7px;
+
 }
 
 /* FALTA ARRUMAR O CAMPO DE LOGIN */
