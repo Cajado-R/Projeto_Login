@@ -1,0 +1,72 @@
+@charset "UTF-8";   
+
+
+
+@media screen and (min-width: 700px) and (max-width: 992px){
+    
+    body, html{
+        overflow: hidden;
+    }
+
+    main{
+        background: url(../imgs/aguavivabackground.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        position: fixed; top: 0; left: 0
+    }
+
+    #login{
+        width: 80vw;
+    }
+
+    #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario{
+        float: right;
+        width: 65%;
+    }
+
+
+
+}
+
+@media screen and (min-width: 992px) {
+
+    body, html{
+        overflow: hidden;
+    }
+
+    main{
+        background: url(../imgs/aguavivabackground.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0px;
+        position: fixed; top: 0; left: 0;
+        overflow: hidden;
+
+    
+    }
+
+    #login{
+        width: 900px;
+    }
+
+    #imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+
+    }
+
+    #formulario{
+        float: left;
+        width: auto;
+    }
+}
